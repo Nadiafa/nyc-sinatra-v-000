@@ -15,5 +15,8 @@ class LandmarksController < ApplicationController
     redirect '/landmarks'
   end 
   
+  get '/landmark/:id' do 
+    @landmark = Landmark.find
+  
   
 end
