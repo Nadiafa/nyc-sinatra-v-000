@@ -20,5 +20,9 @@ class LandmarksController < ApplicationController
     erb :'landmarks/show'
   end 
   
+  get '/landmarks/show'
+    erb :'landmarks/show'
+  end 
+  
   
 end
