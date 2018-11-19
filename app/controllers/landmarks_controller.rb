@@ -25,5 +25,6 @@ class LandmarksController < ApplicationController
     erb :'landmarks/edit'
   end 
   
+  pots '/landmarks/:id'
   
 end
