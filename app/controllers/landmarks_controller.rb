@@ -1,4 +1,6 @@
 
 class LandmarksController < ApplicationController
-  # add controller methods
+  get '' do 
+    
+  end 
 end
