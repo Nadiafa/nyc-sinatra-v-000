@@ -20,10 +20,10 @@ class LandmarksController < ApplicationController
     erb :'landmarks/show'
   end 
   
-  get '/landmarks/show'
-    @landmark = Landmark.(params[:id])
-    erb :'landmarks/show'
-  end 
+  # get '/landmarks/show'
+  #   @landmark = Landmark.(params[:id])
+  #   erb :'landmarks/show'
+  # end 
   
   
 end
